@@ -25,7 +25,8 @@ Activate that environment via `pipenv shell` - you'll know it's succeeded as" (d
 
 ## Activation and Updating Dependencies
 
-To activate without the time consuming install (you only need to install when the platform is updated) just do the last parts of the above - i.e navigate to your cloned databaker-docker repo and run pipenv shell (it's easiest to just think the virtual env "lives" in that directory).
+To activate without the time consuming install (you only need to install when the platform is updated) just do the last parts of the above - i.e navigate to your cloned databaker-docker repo and run `pipenv shell` (it's easiest to just think the virtual env "lives" in that directory).
+
 To update and "re-install/update" your dependencies when the production container has changed:
 navigate to your /databaker-docker directory.
 * run `git stash` - this removes any changes to the repo since last your synced (so you can't get merge conflicts etc)
