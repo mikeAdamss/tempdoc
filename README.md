@@ -15,7 +15,7 @@ Note 2 - Just remember to differentiate this install from the macbooks default p
 
 ## Create a Virtual Environment with Pipenv
 
-All transformation tasks in production run on the following docker container: https://github.com/GSS-Cogs/databaker-docker. The best way to manage your python dependencies is to create a virtual environment from this container (i.e always be in sync with production).
+All transformation tasks in production run on the following docker container: https://github.com/GSS-Cogs/databaker-docker. The best way to manage your python dependencies is to create a virtual environment from this container (i.e always be in sync with production).
 
 From the command line clone (copy, sort of) the container repo via git clone https://github.com/GSS-Cogs/databaker-docker
 
@@ -25,7 +25,8 @@ Activate that environment via pipenv shell - you'll know it's succeeded as" (dat
 
 ## Activation and Updating Dependencies
 
-To activate without the time consuming install (you only need to install when the platform is updated) just do the last parts of the above - i.e navigate to your cloned databaker-docker repo and run pipenv shell (it's easiest to just think the virtual env "lives" in that directory).To update and "re-install/update" your dependencies when the production container has changed:
+To activate without the time consuming install (you only need to install when the platform is updated) just do the last parts of the above - i.e navigate to your cloned databaker-docker repo and run pipenv shell (it's easiest to just think the virtual env "lives" in that directory).
+To update and "re-install/update" your dependencies when the production container has changed:
 navigate to your /databaker-docker directory.
 * run `git stash` - this removes any changes to the repo since last your synced (so you can't get merge conflicts etc)
 * run `git pull` - to get the latest changes
