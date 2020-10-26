@@ -21,7 +21,7 @@ From the command line clone (copy, sort of) the container repo via git clone htt
 
 Navigate to this directory in your terminal (i.e `cd databaker-docker`) then do `pipenv install` to create a virtual environment that matches the one in the container (note - this will take a while).
 
-Activate that environment via pipenv shell - you'll know it's succeeded as" (databaker-docker)" will appear before you command prompt.
+Activate that environment via `pipenv shell` - you'll know it's succeeded as" (databaker-docker)" will appear before you command prompt.
 
 ## Activation and Updating Dependencies
 
