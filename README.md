@@ -7,10 +7,11 @@ DON'T attempt to use the basic python installation that comes with your MAC. It'
 This guide will show the most minimalist steps required to get up and running.
 * install brew via `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
 * install python3 with `brew brew install python3@3.7`
-* then run `export PATH="/usr/local/opt/python@3.7/bin:$PATH" >> ~/.bash_profile to ensure it's available on your system $PATH.`
+* then run `export PATH="/usr/local/opt/python@3.7/bin:$PATH" >> ~/.bash_profile` to ensure it's available on your system $PATH.
 * then `sudo pip3 install pipenv==2018.11.26`
 
-Note 1 - you must  use sudo for the last step, otherwise pipenv may not be set to your global $PATH (this can cause you all kinds of issues).Note 2 - Just remember to differentiate this install from the macbooks default python2 when you use it (i.e by using pip3 and python3).
+Note 1 - you must  use sudo for the last step, otherwise pipenv may not be set to your global $PATH (this can cause you all kinds of issues).
+Note 2 - Just remember to differentiate this install from the macbooks default python2 when you use it (i.e by using pip3 and python3).
 
 ## Create a Virtual Environment with Pipenv
 
