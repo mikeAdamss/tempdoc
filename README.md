@@ -12,4 +12,5 @@ This guide will show the most minimalist steps required to get up and running.
 * If its zshell:  run cat `PATH="/usr/local/opt/python@3.7/bin:$PATH" >> .zshenv` to ensure it's available on your system $PATH.
 * `sudo pip3 install pipenv==2018.11.26`
 
-Note 1 - you must  use sudo for the last step, otherwise pipenv may not be set to your global $PATH (this can cause you all kinds of issues).Note 2 - Just remember to differentiate this install from the macbooks default python2 when you use it (i.e by using pip3 and python3).
+Note 1 - you must  use sudo for the last step, otherwise pipenv may not be set to your global $PATH (this can cause you all kinds of issues).
+Note 2 - Just remember to differentiate this install from the macbooks default python2 when you use it (i.e by using pip3 and python3).
